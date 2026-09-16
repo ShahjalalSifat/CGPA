@@ -17,7 +17,7 @@ import { Course } from '@/types/cgpa';
 
 function CgpaAppContent() {
   const { addCourse, updateCourse, isHydrated, semesters } = useCgpa();
-  const [activeTab, setActiveTab] = useState<TabType>('dashboard');
+  const [activeTab, setActiveTab] = useState<TabType>('semesters');
 
   // Modal states
   const [isCsvModalOpen, setIsCsvModalOpen] = useState(false);
