@@ -1,0 +1,6 @@
+{
+  "name": "CGPA Calculator",
+  "description": "Cross-device CGPA tracking and planning app with customizable assessment weights, grading scales, HSTU Civil preset, target GPA simulator, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
